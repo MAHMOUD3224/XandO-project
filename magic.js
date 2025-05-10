@@ -68,20 +68,20 @@ function checkWinner(){
             setTimeout(() => {
                 alert("The Winner is X");
             }, 0);
-            return ;
+            setTimeout(reset, 3000);
         }else if(isSubset(boardO,i)){
             changeColorWinner(i);
             setTimeout(() => {
                 alert("The Winner is O");
             }, 0);
-            return ;
+            setTimeout(reset, 3000);
         }
     }
     if (boardX.length + boardO.length === 9) {
         setTimeout(() => {
             alert("It's a draw!");
+            setTimeout(reset, 3000);
         }, 0);
-        return ;
     }
     
 }
