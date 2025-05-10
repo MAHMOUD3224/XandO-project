@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-O</title>
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Shantell+Sans:ital,wght@1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <!--// GOOGLE FONTS //-->
+    <link rel="stylesheet" href="/css-file/main.css">
+</head>
+<body>
+  <div id="all-content">
+
+        <!-- X/O BOARD -->
+        <div id="main-content">
+
+            <div id="header-and-board-wrapper">
+                
+                <!-- TOP HEADER -->
+                <div id="header">
+                    <h2 id="instruction">
+                        X turn
+                    </h2>
+                </div>
+                <!--// TOP HEADER //-->
+
+                
+
+                <!-- BOARD -->
+                <div class="grid-container">
+                    <div class="square" data-value="1" value="1" style="border-top: none; border-left: none">
+                        <h3 class="square-content">
+
+                        </h3>
+                    </div>
+
+                    <div class="square" data-value="2" value="2" style="border-top: none">
+                        <h3 class="square-content"></h3>
+                    </div>
+
+                    <div class="square" data-value="3" value="3" style="border-top: none; border-right: none">
+                        <h3 class="square-content"></h3>
+                    </div>
+
+                    <div class="square" data-value="4" value="4" style="border-left: none">
+                        <h3 class="square-content"></h3>
+                    </div>
+
+                    <div class="square" data-value="5" value="5">
+                        <h3 class="square-content"></h3>
+                    </div>
+
+                    <div class="square" data-value="6" value="6" style="border-right: none">
+                        <h3 class="square-content"></h3>
+                    </div>
+
+                    <div class="square" data-value="7" value="7" style="border-bottom: none; border-left: none">
+                        <h3 class="square-content"></h3>
+                    </div>
+
+                    <div class="square" data-value="8" value="8" style="border-bottom: none">
+                        <h3 class="square-content"></h3>
+                    </div>
+
+                    <div class="square" data-value="9" value="9" style="border-bottom: none; border-right: none">
+                        <h3 class="square-content"></h3>
+                    </div>
+
+                </div>
+                <!-- BOARD -->
+
+
+                <!-- FOOTER -->
+                <div id="footer">
+                    <button class="action-btn" id="reset-btn">
+                        reset
+                    </button>
+                </div>
+                <!-- FOOTER -->
+
+            </div>
+        </div>
+        <!--// X/O BOARD //-->
+
+        
+    </div>
+    <script src="magic.js"></script>
+</body>
+</html>
